@@ -1,0 +1,32 @@
+.user-card {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.user-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.user-info h2 {
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
