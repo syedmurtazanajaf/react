@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: green;
+}
+
+.btn {
+  background: blue;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: darkblue;
+}
